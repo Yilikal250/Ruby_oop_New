@@ -1,11 +1,11 @@
-Class Student < Person
-attattr_accessor :@classroom
-def initialize(classroom, name, age, parent_permission)
-  @classroom = classroom
-  super(name, age, parent_permission)
-end
+class Student < Person
+  attattr_accessor :@classroom
+  def initialize(classroom, name, age, parent_permission)
+    @classroom = classroom
+    super(name, age, parent_permission)
+  end
 
-def play_hooky
-  '¯(ツ)/¯'
+  def play_hooky
+    '¯(ツ)/¯'
+  end
 end
-End
