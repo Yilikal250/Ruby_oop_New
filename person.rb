@@ -1,17 +1,20 @@
 class Person
   attr_accessor :id, name, age
 
-  def can_use_services?
-    return unless age == 18 && parent_permission == true
+  def initialize(age, name = 'Unknown', parent_permission: true)
+    @id = rand(1...1000)
+    @age = age
+    @name = name
+    @parent_permission = parent_permission
+  end
 
-    true
+  def can_use_services?
+    of_age? || @parent_permission
   end
 
   private
 
   def of_age?
-    return false if age <= 18
-
-    true
+    @age >= 18
   end
 end

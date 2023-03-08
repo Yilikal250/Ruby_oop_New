@@ -1,8 +1,8 @@
 class Teacher < Person
   attattr_accessor :@specialization
-  def initialize(classroom, name, age, parent_permission, specialization)
+  def initialize(specialization, age, name = 'Unknown', parent_permission: true)
     @specialization = specialization
-    super(classroom, name, age, parent_permission)
+    super(age, name, parent_permission: parent_permission)
   end
 
   def can_use_services?
