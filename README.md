@@ -180,11 +180,9 @@ I would like to thank [Microverse](https://www.microverse.org/) for the opportun
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: ## Copyright 2023, [Yilikal Teshome]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this [Ruby oop code] and associated documentation files, to deal in the [Ruby oop code] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [Ruby oop code], and to permit persons to whom the [Ruby oop code] is furnished to do so, subject to the following conditions:
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [Ruby oop code].
 
