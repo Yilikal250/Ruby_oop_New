@@ -1,6 +1,7 @@
-require './classroom'
+require_relative './classroom'
+require_relative './person'
 class Student < Person
-  attattr_accessor :@classroom
+  attr_reader :classroom
 
   def initialize(*person, classroom)
     super(*person)
@@ -13,6 +14,6 @@ class Student < Person
   end
 
   def play_hooky
-    '¯(ツ)/¯'
+    '¯\(ツ)/¯'
   end
 end
