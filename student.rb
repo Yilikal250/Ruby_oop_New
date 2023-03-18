@@ -1,7 +1,7 @@
 require_relative './classroom'
 require_relative './person'
 class Student < Person
-  attattr_accessor :classroom
+  attr_accessor :classroom
 
   def initialize(*person, classroom)
     super(*person)
